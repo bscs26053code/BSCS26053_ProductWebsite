@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>APERTURE BY FAHAD - Products</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="BSCS26053_style.css">
+</head>
+<body>
+
+  <header class="navbar">
+    <div class="logo">APERTURE BY FAHAD</div>
+    <ul>
+      <li><a href="BSCS26053_Home.html">Home</a></li>
+      <li><a href="BSCS26053_Products.html">Products</a></li>
+      <li><a href="BSCS26053_Contact.html">About Us</a></li>
+    </ul>
+  </header>
+
+  <div class="page-title">
+    <h1>Our Products</h1>
+    <p>Five essentials to build your kit, one piece at a time.</p>
+  </div>
+
+  <main class="product-list">
+
+    <div class="product-box">
+      <img src="BSCS26053_image3.jpg" alt="Mirrorless Camera X200">
+      <div class="product-info">
+        <h3>Mirrorless Camera X200</h3>
+        <span class="price">$650</span>
+        <button onclick="checkAvailability('stock1', 'In Stock')">Check Availability</button>
+        <p id="stock1"></p>
+        <p class="desc">A lightweight mirrorless camera with a large sensor, fast
+          autofocus, and 4K video. A great step up from a phone camera for
+          anyone getting serious about photography.</p>
+      </div>
+    </div>
+
+    <div class="product-box">
+      <img src="BSCS26053_image2.jpg" alt="50mm Prime Lens">
+      <div class="product-info">
+        <h3>50mm Prime Lens</h3>
+        <span class="price">$220</span>
+        <button onclick="checkAvailability('stock2', 'In Stock')">Check Availability</button>
+        <p id="stock2"></p>
+        <p class="desc">A sharp, wide-aperture prime lens built for low light and
+          portraits. Small, light, and easy to carry everywhere.</p>
+      </div>
+    </div>
+
+    <div class="product-box">
+      <img src="BSCS26053_image4.jpg" alt="Tripod Stand">
+      <div class="product-info">
+        <h3>Travel Tripod</h3>
+        <span class="price">$45</span>
+          <button onclick="checkAvailability('stock3', 'In Stock')">Check Availability</button>
+          <p id="stock3"></p>
+        <p class="desc">A lightweight, foldable tripod that keeps your shots steady
+          for long exposures, group photos, and video.</p>
+      </div>
+    </div>
+
+    <div class="product-box">
+      <img src="BSCS26053_image5.jpg" alt="Leather Camera Bag">
+      <div class="product-info">
+        <h3>Leather Camera Bag</h3>
+        <span class="price">$60</span>
+          <button onclick="checkAvailability('stockout', 'Out of Stock')">Check Availability</button>
+          <p id="stockout"></p>
+        <p class="desc">A padded bag with room for one camera body, two lenses,
+          and small accessories. Keeps your gear safe on the move.</p>
+      </div>
+    </div>
+
+    <div class="product-box">
+      <img src="BSCS26053_image6.jpg" alt="Memory Card Kit">
+      <div class="product-info">
+        <h3>Memory Card Kit</h3>
+        <span class="price">$25</span>
+      <button onclick="checkAvailability('stock4', 'In Stock')">Check Availability</button>
+          <p id="stock4"></p>
+        <p class="desc">A set of three high-speed SD cards for fast photo bursts
+          and smooth 4K recording, so you never run out of space mid-shoot.</p>
+      </div>
+    </div>
+
+  </main>
+
+  <footer class="footer">
+    <p>&copy;  APERTURE BY FAHAD. All rights reserved.</p>
+    <p>&copy; <span id="year"></span> APERTURE</p>
+  </footer>
+<script src="BSCS26053_script.js"></script>
+</body>
+</html>
